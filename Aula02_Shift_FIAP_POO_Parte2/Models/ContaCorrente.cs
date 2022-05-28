@@ -33,6 +33,7 @@ namespace Aula02_Shift_FIAP_POO_Parte2.Models
                 throw new SaldoInsuficienteException("Saldo insuficiente para realizar a operação.");
 
             }
+            Saldo = valor;
         }
         public decimal RetornarSaldoTotal()
         {
@@ -57,7 +58,11 @@ namespace Aula02_Shift_FIAP_POO_Parte2.Models
             {
                 return Convert.ToDecimal(Juros) * dias * Saldo;
             }
-            return 0;
+            else
+            {
+                return 0;
+            }
+
         }
     }
 }

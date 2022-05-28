@@ -27,7 +27,8 @@ namespace Aula02_Shift_FIAP_POO_Parte2.Models
             Saldo -= valor;
         }
 
-        public decimal CalcularRetornoInvestimento(decimal taxa)
+
+        public decimal CalcularRetornarInvestimento(decimal taxa)
         {
             return Saldo * taxa;
         }

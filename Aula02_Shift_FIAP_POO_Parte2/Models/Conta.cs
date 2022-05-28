@@ -10,7 +10,7 @@ namespace Aula02_Shift_FIAP_POO_Parte2.Models
         // Propriedade da conta
 
         public decimal Saldo { get; protected set; }
-        public double Numero { get; protected set; }
+        public double Numero { get; set; }
 
         public void Depositar(decimal valor)
         {
