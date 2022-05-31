@@ -1,7 +1,7 @@
 ﻿using System;
 using Aula03_Shift_FIAP_POO.Models;
 
-namespace Aula02_Shift_FIAP_POO_Parte2
+namespace Aula03_Shift_FIAP_POO_Parte2
 {
     class Program
     {
