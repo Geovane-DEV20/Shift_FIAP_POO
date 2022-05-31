@@ -1,15 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula01_Shift_FIAP_POO", "Aula01_Shift_FIAP_POO\Aula01_Shift_FIAP_POO.csproj", "{F0127314-2D20-41E0-B25F-870461B1C2CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula01_Shift_FIAP_POO_Parte2", "Aula01_Shift_FIAP_POO_Parte2\Aula01_Shift_FIAP_POO_Parte2.csproj", "{C7FC5D98-D61D-4B64-9DFD-72B946CC1D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula02_Shift_FIAP_POO", "Aula02_Shift_FIAP_POO\Aula02_Shift_FIAP_POO.csproj", "{F8049FD9-C998-417D-B392-FC40C3A5A4FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula02_Shift_FIAP_POO", "Aula02_Shift_FIAP_POO\Aula02_Shift_FIAP_POO.csproj", "{F8049FD9-C998-417D-B392-FC40C3A5A4FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula02_Shift_FIAP_POO_Parte2", "Aula02_Shift_FIAP_POO_Parte2\Aula02_Shift_FIAP_POO_Parte2.csproj", "{FE0B65D0-DD9C-41FE-9E37-99C8371D0053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula02_Shift_FIAP_POO_Parte2", "Aula02_Shift_FIAP_POO_Parte2\Aula02_Shift_FIAP_POO_Parte2.csproj", "{FE0B65D0-DD9C-41FE-9E37-99C8371D0053}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula03_Shift_FIAP_POO", "Aula03_Shift\Aula03_Shift_FIAP_POO.csproj", "{3C655FBB-4A9F-4627-B0B5-6D0E120D0329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula04_Shift_FIAP_POO", "Aula04_Shift_FIAP_POO\Aula04_Shift_FIAP_POO.csproj", "{188F4EB9-4B1B-4B3D-B771-20CBE2719CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula04_Shift_FIAP_POO_Parte2", "Aula04_Shift_FIAP_POO_Parte2\Aula04_Shift_FIAP_POO_Parte2.csproj", "{32031088-FCA7-42C6-9A0A-AD596E3C02CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula04_Shift_FIAP_POO_Parte3", "Aula04_Shift_FIAP_POO_Parte3\Aula04_Shift_FIAP_POO_Parte3.csproj", "{49F94D7E-0BCF-4143-9926-7E3CC64274D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{FE0B65D0-DD9C-41FE-9E37-99C8371D0053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0B65D0-DD9C-41FE-9E37-99C8371D0053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0B65D0-DD9C-41FE-9E37-99C8371D0053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C655FBB-4A9F-4627-B0B5-6D0E120D0329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C655FBB-4A9F-4627-B0B5-6D0E120D0329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C655FBB-4A9F-4627-B0B5-6D0E120D0329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C655FBB-4A9F-4627-B0B5-6D0E120D0329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188F4EB9-4B1B-4B3D-B771-20CBE2719CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188F4EB9-4B1B-4B3D-B771-20CBE2719CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188F4EB9-4B1B-4B3D-B771-20CBE2719CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188F4EB9-4B1B-4B3D-B771-20CBE2719CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32031088-FCA7-42C6-9A0A-AD596E3C02CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32031088-FCA7-42C6-9A0A-AD596E3C02CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32031088-FCA7-42C6-9A0A-AD596E3C02CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32031088-FCA7-42C6-9A0A-AD596E3C02CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F94D7E-0BCF-4143-9926-7E3CC64274D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F94D7E-0BCF-4143-9926-7E3CC64274D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F94D7E-0BCF-4143-9926-7E3CC64274D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F94D7E-0BCF-4143-9926-7E3CC64274D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

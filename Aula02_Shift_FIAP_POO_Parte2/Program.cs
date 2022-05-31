@@ -21,7 +21,7 @@ namespace Aula02_Shift_FIAP_POO_Parte2
             // TODO: Finalizar insert de dados da conta e métdodos para transações
 
             Console.WriteLine("Didite o número da conta");
-            int numeroConta = Convert.ToInt32(Console.ReadLine());
+            int numeroConta = Convert.ToInt32(Console.ReadLine());  
 
             Console.WriteLine("É uma conta especial. ");
             bool especial = bool.Parse(Console.ReadLine());
