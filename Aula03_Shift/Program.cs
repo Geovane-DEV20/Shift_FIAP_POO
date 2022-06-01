@@ -1,13 +1,13 @@
 ﻿using System;
 using Aula03_Shift_FIAP_POO.Models;
 
-namespace Aula03_Shift_FIAP_POO_Parte2
+namespace Aula03_Shift_FIAP_POO
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite a quantidade de comodos");         
+            Console.WriteLine("Digite a quantidade de comodos");
             int quantidade = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Tem piscina");
@@ -35,10 +35,10 @@ namespace Aula03_Shift_FIAP_POO_Parte2
                 Piscina = true
             };
 
-            Console.WriteLine($"{ casa.Comodos}, {casa.Piscina },  {casa.AreaTotal}" );
-            Console.WriteLine($"{ casa2.Comodos}, {casa2.Piscina },  {casa2.AreaTotal}" );
-            Console.WriteLine($"{ casa3.Comodos}, {casa3.Piscina },  {casa3.AreaTotal}" );
-            Console.WriteLine($"{ casa4.Comodos}, {casa4.Piscina },  {casa4.AreaTotal}" );
+            Console.WriteLine($"{casa.Comodos}, {casa.Piscina},  {casa.AreaTotal}");
+            Console.WriteLine($"{casa2.Comodos}, {casa2.Piscina},  {casa2.AreaTotal}");
+            Console.WriteLine($"{casa3.Comodos}, {casa3.Piscina},  {casa3.AreaTotal}");
+            Console.WriteLine($"{casa4.Comodos}, {casa4.Piscina},  {casa4.AreaTotal}");
         }
     }
 }
